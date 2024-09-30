@@ -1,0 +1,55 @@
+@media screen  and (max-width:768px){
+    .MainContainer{
+        padding-bottom: 0;
+    }
+    .timelineCardsLeft{
+        order: 2;
+        justify-content: unset;
+        height: max-content;
+        gap: 30px;
+    }
+    .timelineCardscenter{
+        order: 1;
+        height: 100vh;
+    }
+    .timelineCardsRight{
+        order: 3;
+        margin-top: -30rem;
+        gap: 30px;
+        justify-content: unset;
+    }
+    .timelineCardsMain{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .year2002-1{
+        order: 1;
+    }
+    .year2002-2{
+        border-radius: 0;
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+    }
+    .year2002-3{
+        align-self: flex-end;
+    }
+    .year2002-2::before{
+        left: -50px;
+    }
+    .year2022-3{
+        clip-path: polygon(0 0, 100% 0, 100% 100%) !important;
+    }
+
+}
+@media screen  and (max-width:580px){
+    .timelineCardscenter{
+        display: none;
+        align-self: flex-start;
+    }
+    .timelineCardsRight{
+        margin-top: 0;
+    }
+    .year2002-1 , .year2022-2 {
+        width: 90%;
+    }
+}   

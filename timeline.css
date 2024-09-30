@@ -1,0 +1,208 @@
+:root{
+    --pink-color: #E24A68;
+    --yellow-color:#FBCA3E;
+    --light-blue: #1B5F8C;
+    --aqua-blue: #4CADAD;;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+body {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.MainContainer{
+    padding: 60px 32px ;
+}
+h1{
+    text-align: center;
+    padding-bottom: 32px;
+}
+.timelineCardsMain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.timelineCardscenter{
+    width: 4px;
+    height: 776px;
+    background-color: #E1E1E1;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    
+}
+
+.year2002Con{
+    display: flex;
+    flex-direction: column;
+}
+
+.timelineCardsLeft{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 32px;
+    justify-content: space-between;
+}
+.timelineCardsRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 32px;
+}
+.year2002{
+    display: flex;
+}
+
+.year2002-1 {
+    color: #FFF;
+    place-content: center;
+    text-align:center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.year2002-1{
+    height: 48px;
+    background-color: #41516C;
+    width: 400px;
+}
+.year2002-2 {
+    height: 48px;
+    background-color: #41516C;
+    width: 48px;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    position: relative;
+}
+
+.year2002-2::before{
+    box-sizing: border-box;
+    content: "";
+    position: absolute;
+    left: 66px;
+    border-radius: 100%;
+    height: 32px;
+    width: 32px;
+    border: 4.5px solid #41516C;
+    background: white;
+    margin-top: 8px;
+    
+}
+.year2002-3{
+    width: 32px;
+    height: 32px;
+    background-color: #41516C;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
+}
+
+.year2002des{
+    max-width: 448px;
+    text-align: justify;
+    padding: 10px 12px 12px 12px;    
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+} 
+
+.year2002des span{
+    padding: 12px 0px 12px 0px;
+    font-weight: 600;
+}
+
+#year2012-1{
+    background-color: var(--pink-color);
+}
+#year2012-1::before{
+    border-color: var(--pink-color);
+}
+#year2022-1{
+    background-color: var(--aqua-blue);
+}
+#year2022-1::before{
+    border-color: var(--aqua-blue);
+}
+
+/* wcbeuhd */
+
+.year2022{
+    display: flex;
+}
+.year2022Con{
+    position: relative;
+}
+.year2022-1{
+    height: 48px;
+    background-color: #41516C;
+    width: 48px;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    position: relative;
+}
+
+.year2022-2{
+    height: 48px;
+    background-color: #41516C;
+    width: 400px;
+}
+
+.year2022-3{
+    width: 32px;
+    height: 32px;
+    background-color: #41516C;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
+    position: absolute;
+    right: 0;
+}
+.year2022-1::before{
+    box-sizing: border-box;
+    content: "";
+    position: absolute;
+    left: -50px;
+    border-radius: 100%;
+    height: 32px;   
+    width: 32px;
+    border: 4.5px solid #41516C;
+    background: white;
+    margin-top: 8px;
+}
+
+.year2022-2{
+    color: #FFF;
+    place-content: center;
+    text-align:center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#year2007-1{
+    background-color: var(--yellow-color);
+}
+#year2017-1{
+    background-color: var(--light-blue);
+}
+#year2007-1::before{
+    border-color: var(--yellow-color);
+}
+#year2017-1::before{
+    border-color: var(--light-blue);
+}
+
